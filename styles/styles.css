@@ -10,7 +10,7 @@ html {
 /* styles of home*/
 .me-page {
     padding: 1rem 16vw 1.6rem 1.6rem;
-    font-size: 3.2rem;
+    font-size: 3.2em;
     border: none;
     font-family: 'Chonburi', cursive;
     text-align: left;
@@ -39,7 +39,7 @@ html {
 h1 {
     font-family: 'Chonburi', cursive;
     padding: 1rem 0 1.6rem;
-    font-size: 3.2rem;
+    font-size: 3.2em;
 }
 
 .graphic-page h1{
@@ -53,7 +53,7 @@ h1 {
 }
 
 .description {
-    font-size: 2.2rem;
+    font-size: 2.2em;
     padding: 0 2rem;
     color: black;
 }
@@ -87,5 +87,9 @@ aside .contact {
 }
 
 aside .me:hover, .graphic:hover, .research:hover, .product:hover, .contact:hover {
+    opacity: 0.8;
+}
+
+aside .me:focus, .graphic:focus, .research:focus, .product:focus, .contact:focus {
     opacity: 0.8;
 }
