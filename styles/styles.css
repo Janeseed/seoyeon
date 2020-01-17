@@ -1,0 +1,91 @@
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* color palette R: #DE184E B: #296BD9 Y: #FFC200 */
+/* styles of home*/
+.me-page {
+    padding: 1rem 16vw 1.6rem 1.6rem;
+    font-size: 3.2rem;
+    border: none;
+    font-family: 'Chonburi', cursive;
+    text-align: left;
+}
+
+.me-page p {
+    display: inline;
+}
+
+.blue {
+    color: #296BD9;
+}
+
+.home-graph img {
+    margin: 10px;
+    max-width: 65rem;
+    align-content: center;
+}
+
+/* styles of works */
+.graphic-page, .ux-page, .research-page {
+    margin: 20em 0 30em;
+    padding: 0 12vw 0 1.6rem;
+}
+
+h1 {
+    font-family: 'Chonburi', cursive;
+    padding: 1rem 0 1.6rem;
+    font-size: 3.2rem;
+}
+
+.graphic-page h1{
+    color: #DE184E;
+}
+.ux-page h1{
+    color: #296BD9;
+}
+.research-page h1{
+    color: #FFC200;
+}
+
+.description {
+    font-size: 2.2rem;
+    padding: 0 2rem;
+    color: black;
+}
+
+/* SideBar for Navigating */
+aside .me, .graphic, .product, .research, .contact {
+    position: fixed;
+    right: 2vw;
+    z-index: 999;
+    cursor: pointer;
+}
+
+aside .me {
+    top: 8vw;
+}
+
+aside .graphic {
+    top: 26vw;
+}
+
+aside .product {
+    top: 40vw;
+}
+
+aside .research {
+    top: 54vw;
+}
+
+aside .contact {
+    bottom: 4vw;
+}
+
+aside .me:hover, .graphic:hover, .research:hover, .product:hover, .contact:hover {
+    opacity: 0.8;
+}
