@@ -2,7 +2,7 @@
 
 2021 Spring, CS492 Human-AI Interaction
 
-Link to Video:
+Link to Video: https://youtu.be/eLHXZRi-Bi4
 
 ## Members
 
@@ -52,7 +52,7 @@ For the song preference feature, most users felt that their preferences were ref
 
 After system exploration, each user selected three songs from system and then were told to score their satisfaction with the recommendation. The average score was 4.3 out of 5 points. Despite the limited number of songs in the dataset, the score demonstrated high user satisfaction with the recommendation provided by the system.
 
-![User Ratings](./images/userratings.jpg)
+![User Ratings](./images/userratings.png)
 *Fig 4. User rating of three selected songs.*
 
 Most users found **Why This Song** feature useful and easily understandable (P3, P4, P5). P3 especially used the feature extensively, and P4 was "very satisfied" with the explanations and thought "much deliberation went into the user's needs when building the system".
